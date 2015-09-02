@@ -39,9 +39,12 @@ body {
 
 .container {
   margin: 3em auto;
-  border: 2px solid #222;
+  border: 2px solid #555;
   padding: 0 1.5em .8em 1.5em;
   position: relative;
+  a {
+    text-decoration: none;
+  }
 }
 
 .container p {
@@ -51,10 +54,14 @@ body {
   color: #555;
 }
 
+.innovacion .row {
+  margin-bottom: .8em;
+}
 
 .manifiesto .head {
   background: $manifiesto-color;
   padding: 4em 0;
+  margin-top: 2em;
   margin-bottom: 1em;
   h2 {
     font-size: 3em; 
@@ -102,11 +109,19 @@ body {
 
 .manifiesto {
   .number {
-    font-size: 2em;
-    margin: 0;
-  }
-  p {
+    font-size: 3em;
     margin: 0;
   }
 
+
+}
+
+.manifiesto-items {
+  p {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: .6em;
+    letter-spacing: 1px;
+  }
 }
