@@ -20,6 +20,9 @@ body {
   margin-top: 30%;
 } 
 
+.site-header {
+  background: #f7f7f7;
+}
 
 .container h2 {
   font-weight: 500;
@@ -126,5 +129,52 @@ body {
   }
   .medium-3 {
     padding: .8em;
+  }
+}
+
+
+.labs {
+  background: #f7f7f7;
+  margin-top: 4em;
+  padding: 1em 0 3em 0;
+  h2 {
+    font-weight: 500;
+  }
+  img {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    transition: all .2s;
+
+    &:hover {
+      filter: grayscale(0);
+      -webkit-filter: grayscale(0);     
+    }
+  }
+
+  .lab-rio, .lab-mx { 
+    position: relative;
+    display: inline-block;
+    top: 58px;
+  }
+  .lab-mx {
+    top: 66px;
+  }
+}
+
+.contact {
+  background: url('/assets/contact.png') no-repeat;
+  background-position: -10% -10%;
+  background-size: 30%;
+  margin-top: 2em;
+
+  .button {
+    display: block; 
+    background: #444;
+    color: #f9f9f9;
+    width: 60%;
+    margin: .8em auto;
+    padding: .4em .8em;
+    border-radius: 4px;
+
   }
 }
