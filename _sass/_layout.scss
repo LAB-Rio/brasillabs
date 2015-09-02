@@ -100,7 +100,7 @@ body {
     position: absolute;
     z-index: 1;
     right: 0;
-    margin-top: -12%;
+    margin-top: -10%;
     text-align: right !important;
   }
 
@@ -109,7 +109,7 @@ body {
 
 .manifiesto {
   .number {
-    font-size: 3em;
+    font-size: 3.5em;
     margin: 0;
   }
 
@@ -123,5 +123,8 @@ body {
     font-weight: 400;
     font-size: .6em;
     letter-spacing: 1px;
+  }
+  .medium-3 {
+    padding: .8em;
   }
 }
