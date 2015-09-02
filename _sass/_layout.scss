@@ -54,7 +54,31 @@ body {
 .manifiesto .head {
   background: $manifiesto-color;
   padding: 1.2em 0;
+  margin-bottom: 1em;
+  h2 {
+    font-size: 3em; 
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  p {
+    font-weight: 300;
+  }
   h2,p {
+    margin: 0;
     color: white;
+  }
+
+
+}
+
+
+.manifiesto {
+  .number {
+    font-size: 2em;
+    margin: 0;
+  }
+  p {
+    margin: 0;
   }
 }
