@@ -256,3 +256,16 @@ body {
   margin-top: 1.5em;
   margin-bottom: 0;
 }
+
+
+.pink-bg {
+  background: #ec008c;
+  min-height: 200px;
+  h2 {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 2em;
+    padding: .8em .2em;
+  }
+}
